@@ -14,12 +14,15 @@
     </head>
 
     <body>
-        <div class="container">
-            <nav class="navbar navbar-default">
-                <!-- Navbar Contents -->
+        <header>
+            <nav class="navbar navbar-light bg-info">
+                <a class="navbar-brand" href="#" style="color:#FFF">
+                    Task List App
+                </a>
             </nav>
+        </header>
+        <div class="container" style="margin-top: 20px;">
+            @yield('content')
         </div>
-
-        @yield('content')
     </body>
 </html>
